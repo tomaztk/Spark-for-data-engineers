@@ -11,7 +11,7 @@ Spark for data engineers is repository that will provide readers overview, code 
 
 1. [What is Apache Spark]() ([blogpost]()
 2. [Getting started]() ([blogpost]())
-
+3. [Basics about Spark language]() ([blogpost]())
 
  ## Blog
 
@@ -43,6 +43,8 @@ sudo git clone -n https://github.com/tomaztk/Spark-for-data-engineers.git
  ## Suggestions
  Feel free to suggest any new topics that you would like to be covered.
 
+ ## Github.io
+All code is available also at [tomaztk.github.io](tomaztk.github.io)
 
  ## License
  [MIT](https://choosealicense.com/licenses/mit/) © Tomaž Kaštrun
