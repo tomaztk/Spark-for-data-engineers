@@ -44,7 +44,7 @@ sudo git clone -n https://github.com/tomaztk/Spark-for-data-engineers.git
  Feel free to suggest any new topics that you would like to be covered.
 
  ## Github.io
-All code is available also at [tomaztk.github.io](tomaztk.github.io)
+All code is available also at github site as a book markdown. [tomaztk.github.io](tomaztk.github.io)
 
  ## License
  [MIT](https://choosealicense.com/licenses/mit/) © Tomaž Kaštrun
