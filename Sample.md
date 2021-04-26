@@ -1,6 +1,5 @@
-#Text for MD
+# Test MD
 
+ \ alpha 
 
-\alpha 
-
-\alpha
+ \alpha
