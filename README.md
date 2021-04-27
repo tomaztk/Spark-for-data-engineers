@@ -9,7 +9,7 @@ Spark for data engineers is repository that will provide readers overview, code 
 
 
 
-1. [What is Apache Spark]() ([blogpost]()
+1. [What is Apache Spark]() ([blogpost]())
 2. [Getting started]() ([blogpost]())
 3. [Basics about Spark language]() ([blogpost]())
 
