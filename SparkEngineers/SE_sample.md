@@ -42,3 +42,13 @@ The cluster of machines that Spark will leverage to execute tasks will be manage
 Spark Applications consist of a driver process and a set of executor processes. The driver process runs your main() function, sits on a node in the cluster, and is responsible for three things: maintaining information about the Spark  Application; responding to a user’s program or input; and analyzing, distributing, and scheduling work across the  executors (defined momentarily). The driver process is absolutely essential - it’s the heart of a Spark Application and  maintains all relevant information during the lifetime of the application.
 
 The executors are responsible for actually executing the work that the driver assigns them. This means, each executor is responsible for only two things: executing code assigned to it by the driver and reporting the state of the computation, on that executor, back to the driver node.
+
+
+## Learning Spark for Data Engineers
+
+Data engineers position is slightly different of analytical positions. Instead of mathematics, statistics and advanced analytics skills, learning Spark for data engineers will be focus on topics:
+
+1. Data transformation, data modeling 
+1. Using relational and non-relational data
+1. Desinging pipelines, ETL and data movement
+1. Orchestration and architectural view
