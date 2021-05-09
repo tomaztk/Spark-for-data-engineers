@@ -48,6 +48,7 @@ The executors are responsible for actually executing the work that the driver as
 
 Data engineers position is slightly different of analytical positions. Instead of mathematics, statistics and advanced analytics skills, learning Spark for data engineers will be focus on topics:
 
+1. Installation and seting up the environment
 1. Data transformation, data modeling 
 1. Using relational and non-relational data
 1. Desinging pipelines, ETL and data movement
