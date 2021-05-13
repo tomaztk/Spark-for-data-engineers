@@ -68,7 +68,7 @@ Data engineers position is slightly different of analytical positions. Instead o
 ## Table of content / Featured blogposts 
 
 
-1. [What is Apache Spark]() ([blogpost]())
+1. [What is Apache Spark](https://github.com/tomaztk/Spark-for-data-engineers/blob/main/SparkEngineers/what-is-apache-spark.md) ([blogpost]())
 2. [Getting started]() ([blogpost]())
 3. [Basics about Spark language]() ([blogpost]())
 
