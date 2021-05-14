@@ -4,3 +4,13 @@ Apache Spark is an open-source unified analytics engine for large-scale data pro
 
 
 Spark is used at a wide range of organizations to process large datasets. 
+
+
+## Hadoop vs. Spark
+
+| Hadoop     | Spark |
+| ----------- | ----------- |
+| Process data using MapReduce; Slow     | Processes data 100x faster as MapReduce; Done in memory       |
+| Performs batch processing of data   | Performs batch processing and real-time processing of data        |
+| Written in Java; more lines of code; longer execution times   | Written in Scala; fewer lines of code        |
+| Supports kerberous authentication | Support shared-secrets authentication. Also capable running on YARN with kerberous capability |
