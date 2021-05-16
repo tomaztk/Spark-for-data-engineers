@@ -14,3 +14,13 @@ Spark is used at a wide range of organizations to process large datasets.
 | Performs batch processing of data   | Performs batch processing and real-time processing of data        |
 | Written in Java; more lines of code; longer execution times   | Written in Scala; fewer lines of code        |
 | Supports kerberous authentication | Support shared-secrets authentication. Also capable running on YARN with kerberous capability |
+
+
+## Spark Features
+
+1. Fast Processing
+2. In-memory computing
+3. Flexibility
+4. Fault tolerance
+5. Analytics
+
