@@ -18,9 +18,9 @@ Spark is used at a wide range of organizations to process large datasets.
 
 ## Spark Features
 
-1. Fast Processing
-2. In-memory computing
-3. Flexibility
-4. Fault tolerance
-5. Analytics
+1. Fast Processing - Resilient Distributed Dataset (RDD) is immutable distributed collections of objects. Each dataset in RDD is divided into logical partitions, which may be computed on different nodes of the cluster.
+3. In-memory computing
+4. Flexibility
+5. Fault tolerance
+6. Analytics
 
