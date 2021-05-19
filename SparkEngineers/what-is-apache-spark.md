@@ -24,3 +24,8 @@ Spark is used at a wide range of organizations to process large datasets.
 5. Fault tolerance - RDD Files enables reliability over data making Apache Spark fault tolerant.
 6. Analytics - Advanced Analytics, Machine Learning and deep learning all come built-in with MLlib Spark with huge capability to add additional ML packages.
 
+## Spark architecture
+
+Apache Spark application consists of two main components: a driver, which converts the user's code into multiple tasks and later jobs that can be distributed across multiple worker nodes, and executors, which run on those nodes and execute the tasks assigned to them. Cluster manager is necessary to orchestrate  between the two.
+
+Spark can run in a standalone cluster mode that simply requires the Apache Spark framework and a JVM on each machine in your cluster, but more likely it is, that you would want more robust resource or cluster management system to take care of allocating workers on demand for you. In the enterprise, this will normally mean running on Hadoop YARN (this is how the Cloudera and Hortonworks distributions run Spark jobs), but Apache Spark can also run on Apache Mesos, Kubernetes, and Docker Swarm.
