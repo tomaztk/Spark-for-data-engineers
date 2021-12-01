@@ -2,7 +2,7 @@
 
 Spark for data engineers is repository that will provide readers overview, code samples and examples for better tackling Spark.
 
-<img src="images/spark_logo.png"  width="240" />
+<img src="images/Spark_logo.png"  width="240" />
 
 
 ## What is Spark and why does it matter for Data Engineers
