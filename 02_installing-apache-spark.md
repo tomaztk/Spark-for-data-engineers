@@ -156,6 +156,14 @@ brew install java</pre>
 <pre class="wp-block-code"><code>Spark-shell</code></pre>
 <!-- /wp:code -->
 
+<!-- wp:image {"align":"center","id":7563,"width":769,"height":463,"sizeSlug":"large","linkDestination":"media"} -->
+<div class="wp-block-image"><figure class="aligncenter size-large is-resized"><a href="https://tomaztsql.files.wordpress.com/2021/12/screenshot-2021-12-02-at-22.31.50.png"><img src="https://tomaztsql.files.wordpress.com/2021/12/screenshot-2021-12-02-at-22.31.50.png?w=1024" alt="" class="wp-image-7563" width="769" height="463"/></a></figure></div>
+<!-- /wp:image -->
+
+<!-- wp:paragraph -->
+<p>Spark is up and running on OpenJDK VM with Java 11.</p>
+<!-- /wp:paragraph -->
+
 <!-- wp:paragraph -->
 <p>Compete set of code, documents, notebooks, and all of the materials will be available at the Github repository:&nbsp;<a rel="noreferrer noopener" href="https://github.com/tomaztk/Spark-for-data-engineers" target="_blank">https://github.com/tomaztk/Spark-for-data-engineers</a></p>
 <!-- /wp:paragraph -->
