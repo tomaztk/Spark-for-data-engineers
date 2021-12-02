@@ -63,14 +63,13 @@ Data engineers position is slightly different of analytical positions. Instead o
 1. Orchestration and architectural view
 
 
-
-
 ## Table of content / Featured blogposts 
 
 
-1. [What is Apache Spark](https://github.com/tomaztk/Spark-for-data-engineers/blob/main/SparkEngineers/01_what-is-apache-spark.md) ([blogpost]())
-2. [Getting started]() ([blogpost]())
-3. [Basics about Spark language]() ([blogpost]())
+1. [What is Apache Spark](https://github.com/tomaztk/Spark-for-data-engineers/blob/main/SparkEngineers/01_what-is-apache-spark.md) ([blogpost](https://tomaztsql.wordpress.com/2021/12/01/advent-of-2021-day-1-what-is-apache-spark/))
+1. [Installing Apache Spark](https://github.com/tomaztk/Spark-for-data-engineers/blob/main/SparkEngineers/02_installing-apache-spark.md) ([blogpost](https://tomaztsql.wordpress.com/2021/12/02/advent-of-2021-day-2-installing-apache-spark/))
+1. [Getting started]() ([blogpost]())
+1. [Basics about Spark language]() ([blogpost]())
 
 
 
