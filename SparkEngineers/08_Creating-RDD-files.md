@@ -23,3 +23,49 @@
 <!-- wp:paragraph -->
 <p>Using Python, we can run the cluster and start tinkering with a simple file (using my <a rel="noreferrer noopener" href="https://adventofcode.com/2021/day/7" target="_blank">Advent of Code input data puzzle for day 7</a> , because :-) ) </p>
 <!-- /wp:paragraph -->
+
+<!-- wp:syntaxhighlighter/code {"language":"python"} -->
+<pre class="wp-block-syntaxhighlighter-code">from pyspark.sql import SparkSession
+
+spark:SparkSession = SparkSession.builder()
+      .master("local[1]")
+      .appName("UsingAoCData")
+      .getOrCreate() </pre>
+<!-- /wp:syntaxhighlighter/code -->
+
+<!-- wp:paragraph -->
+<p>And we prepare for parallelisation of the RDD:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:syntaxhighlighter/code -->
+<pre class="wp-block-syntaxhighlighter-code">data = [1,2,3,4,5,6,7,8,9,10,11,12]
+rdd=spark.sparkContext.parallelize(data)</pre>
+<!-- /wp:syntaxhighlighter/code -->
+
+<!-- wp:paragraph -->
+<p>These files can be created on many different platforms (HDFS, local file,...) and will still have the same characteristics.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Furthermore, you can also create an empty RDD file and later populate it, you can partition the RDD files, create the whole text files and many other options.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>When you use the methods &nbsp;<code>parallelize()</code>, &nbsp;<code> textFile()</code>&nbsp; or&nbsp;<code>wholeTextFiles() </code>&nbsp; methods to store data into  RDD, these will be automatically split into partitions (with limitations of resources available). Number of partitions - as we have already discussed - will be based upon the number of cores available in the system.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Tomorrow we will look into RDD operations (transformations and actions) 🙂</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Compete set of code, documents, notebooks, and all of the materials will be available at the Github repository:&nbsp;<a rel="noreferrer noopener" href="https://github.com/tomaztk/Spark-for-data-engineers" target="_blank">https://github.com/tomaztk/Spark-for-data-engineers</a></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Happy Spark Advent of 2021! 🙂</p>
+<!-- /wp:paragraph -->
