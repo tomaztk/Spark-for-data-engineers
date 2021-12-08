@@ -44,7 +44,7 @@ sc <- spark_connect(master = "local", spark_home = "/Users/tomazkastrun/spark/sp
 
 
 iris_tbl <- copy_to(sc, iris)
-iris_tbl
+iris_tbl <- iris
 
 plot(iris_tbl$Petal.Length, iris_tbl$Petal.Width, pch=c(23,24,25), bg=c("red","green3","blue")[unclass(iris_tbl$Species)], main="Plotting Iris")
 
