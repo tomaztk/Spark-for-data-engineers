@@ -48,3 +48,8 @@ spark_web(sc)
 # Getting connection to SQL
 library(DBI)
 dbGetQuery(sc, "SELECT count(*) FROM mtcars")
+
+
+# stop
+spark_disconnect(sc)
+spark_disconnect_all()
