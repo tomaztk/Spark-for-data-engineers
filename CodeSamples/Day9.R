@@ -30,3 +30,21 @@ system("jps")
 sc <- spark_connect(master = "spark://192.168.0.184:7077")
 sc <- spark_connect(master ="spark://192.168.0.184:7077", spark_home = "/usr/local/spark-2.4.0-bin-hadoop2.7")
 sc <- spark_connect(master ="spark://192.168.0.184:7077", spark_home = "/Users/tomazkastrun/spark/spark-2.4.8-bin-hadoop2.7")
+sc <- spark_connect(master ="spark://192.168.0.184:7077", spark_home = "/usr/local/spark-2.4.8-bin-hadoop2.7")
+
+
+
+
+
+cars <- copy_to(sc, mtcars)
+
+
+cars
+
+# opening web interface
+spark_web(sc)
+
+
+# Getting connection to SQL
+library(DBI)
+dbGetQuery(sc, "SELECT count(*) FROM mtcars")
