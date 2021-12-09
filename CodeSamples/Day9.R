@@ -38,7 +38,7 @@ sc <- spark_connect(master ="spark://192.168.0.184:7077", spark_home = "/usr/loc
 
 cars <- copy_to(sc, mtcars)
 
-
+# getting RDD created in Spark storage
 cars
 
 # opening web interface
