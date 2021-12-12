@@ -67,10 +67,16 @@ Data engineers position is slightly different of analytical positions. Instead o
 
 
 1. [What is Apache Spark](https://github.com/tomaztk/Spark-for-data-engineers/blob/main/SparkEngineers/01_what-is-apache-spark.md) ([blogpost](https://tomaztsql.wordpress.com/2021/12/01/advent-of-2021-day-1-what-is-apache-spark/))
-1. [Installing Apache Spark](https://github.com/tomaztk/Spark-for-data-engineers/blob/main/SparkEngineers/02_installing-apache-spark.md) ([blogpost](https://tomaztsql.wordpress.com/2021/12/02/advent-of-2021-day-2-installing-apache-spark/))
-1. [Getting started]() ([blogpost]())
-1. [Basics about Spark language]() ([blogpost]())
-
+1. [Installing Apache Spark]() ([blogpost]())
+1. [Getting around CLI and WEB UI in Apache Spark]() ([blogpost]())
+1. [Spark Architecture – Local and cluster mode]() ([blogpost]())
+1. [Setting up Spark Cluster]() ([blogpost]())
+1. [Setting up IDE]() ([blogpost]())
+1. [Starting Spark with R and Python]() ([blogpost]())
+1. [Creating RDD files]() ([blogpost]())
+1. [RDD Operations]() ([blogpost]())
+1. [Working with data frames]() ([blogpost]())
+1. [Working with packages and spark DataFrames]() ([blogpost]())
 
 
  ## Blog
