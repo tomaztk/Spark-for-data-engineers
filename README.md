@@ -67,18 +67,19 @@ Data engineers position is slightly different of analytical positions. Instead o
 
 
 1. [What is Apache Spark](https://github.com/tomaztk/Spark-for-data-engineers/blob/main/SparkEngineers/01_what-is-apache-spark.md) ([blogpost](https://tomaztsql.wordpress.com/2021/12/01/advent-of-2021-day-1-what-is-apache-spark/))
-1. [Installing Apache Spark](https://github.com/tomaztk/Spark-for-data-engineers/blob/main/SparkEngineers/02_installing-apache-spark.md) ([blogpost]())
-1. [Getting around CLI and WEB UI in Apache Spark](https://github.com/tomaztk/Spark-for-data-engineers/blob/main/SparkEngineers/03_getting-to-know-CLI-and-WEB-UI.md) ([blogpost]())
-1. [Spark Architecture – Local and cluster mode](https://github.com/tomaztk/Spark-for-data-engineers/blob/main/SparkEngineers/04_Spark-Architecture-Local-and-cluster-mode.md) ([blogpost]())
-1. [Setting up Spark Cluster]() ([blogpost](https://github.com/tomaztk/Spark-for-data-engineers/blob/main/SparkEngineers/05_setting-up-Spark-cluster.md))
-1. [Setting up IDE](https://github.com/tomaztk/Spark-for-data-engineers/blob/main/SparkEngineers/06_Setting-up-IDE.md) ([blogpost]())
-1. [Starting Spark with R and Python](https://github.com/tomaztk/Spark-for-data-engineers/blob/main/SparkEngineers/07_Spark-with-R-and-Python.md) ([blogpost]())
-1. [Creating RDD files](https://github.com/tomaztk/Spark-for-data-engineers/blob/main/SparkEngineers/08_Creating-RDD-files.md) ([blogpost]())
-1. [RDD Operations](https://github.com/tomaztk/Spark-for-data-engineers/blob/main/SparkEngineers/09_RDD-Operations.md) ([blogpost]())
-1. [Working with data frames](https://github.com/tomaztk/Spark-for-data-engineers/blob/main/SparkEngineers/10_Working-with-data-frames.md) ([blogpost]())
-1. [Working with packages and spark DataFrames](https://github.com/tomaztk/Spark-for-data-engineers/blob/main/SparkEngineers/11_Working-with-packages-and-spark-dataframes.md) ([blogpost]())
-1. [Spark SQL](https://github.com/tomaztk/Spark-for-data-engineers/blob/main/SparkEngineers/12_Spark-SQL.md) ([blogpost]())
-1. [title]() ([blogpost]())
+1. [Installing Apache Spark](https://github.com/tomaztk/Spark-for-data-engineers/blob/main/SparkEngineers/02_installing-apache-spark.md) ([blogpost](https://tomaztsql.wordpress.com/2021/12/02/advent-of-2021-day-2-installing-apache-spark/))
+1. [Getting around CLI and WEB UI in Apache Spark](https://github.com/tomaztk/Spark-for-data-engineers/blob/main/SparkEngineers/03_getting-to-know-CLI-and-WEB-UI.md) ([blogpost](https://tomaztsql.wordpress.com/2021/12/03/advent-of-2021-day-3-getting-around-cli-and-web-ui-in-apache-spark/))
+1. [Spark Architecture – Local and cluster mode](https://github.com/tomaztk/Spark-for-data-engineers/blob/main/SparkEngineers/04_Spark-Architecture-Local-and-cluster-mode.md) ([blogpost](https://tomaztsql.wordpress.com/2021/12/04/advent-of-2021-day-4-spark-architecture-local-and-cluster-mode/))
+1. [Setting up Spark Cluster](https://github.com/tomaztk/Spark-for-data-engineers/blob/main/SparkEngineers/05_setting-up-Spark-cluster.md) ([blogpost](https://tomaztsql.wordpress.com/2021/12/05/advent-of-2021-day-5-setting-up-spark-cluster/))
+1. [Setting up IDE](https://github.com/tomaztk/Spark-for-data-engineers/blob/main/SparkEngineers/06_Setting-up-IDE.md) ([blogpost](https://tomaztsql.wordpress.com/2021/12/06/advent-of-2021-day-6-setting-up-ide/))
+1. [Starting Spark with R and Python](https://github.com/tomaztk/Spark-for-data-engineers/blob/main/SparkEngineers/07_Spark-with-R-and-Python.md) ([blogpost](https://tomaztsql.wordpress.com/2021/12/07/advent-of-2021-day-7-starting-spark-with-r-and-python/))
+1. [Creating RDD files](https://github.com/tomaztk/Spark-for-data-engineers/blob/main/SparkEngineers/08_Creating-RDD-files.md) ([blogpost](https://tomaztsql.wordpress.com/2021/12/08/advent-of-2021-day-8-creating-rdd-files/))
+1. [RDD Operations](https://github.com/tomaztk/Spark-for-data-engineers/blob/main/SparkEngineers/09_RDD-Operations.md) ([blogpost](https://tomaztsql.wordpress.com/2021/12/09/advent-of-2021-day-9-rdd-operations/))
+1. [Working with data frames](https://github.com/tomaztk/Spark-for-data-engineers/blob/main/SparkEngineers/10_Working-with-data-frames.md) ([blogpost](https://tomaztsql.wordpress.com/2021/12/10/advent-of-2021-day-10-working-with-data-frames/))
+1. [Working with packages and spark DataFrames](https://github.com/tomaztk/Spark-for-data-engineers/blob/main/SparkEngineers/11_Working-with-packages-and-spark-dataframes.md) ([blogpost](https://tomaztsql.wordpress.com/2021/12/11/advent-of-2021-day-11-working-with-packages-and-spark-dataframes/))
+1. [Spark SQL](https://github.com/tomaztk/Spark-for-data-engineers/blob/main/SparkEngineers/12_Spark-SQL.md) ([blogpost](https://tomaztsql.wordpress.com/2021/12/12/advent-of-2021-day-12-spark-sql/))
+
+<!-- 1. [tt]() ([blogpost]()) -->
 
 
  ## Blog
