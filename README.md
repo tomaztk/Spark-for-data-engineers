@@ -67,16 +67,18 @@ Data engineers position is slightly different of analytical positions. Instead o
 
 
 1. [What is Apache Spark](https://github.com/tomaztk/Spark-for-data-engineers/blob/main/SparkEngineers/01_what-is-apache-spark.md) ([blogpost](https://tomaztsql.wordpress.com/2021/12/01/advent-of-2021-day-1-what-is-apache-spark/))
-1. [Installing Apache Spark]() ([blogpost]())
-1. [Getting around CLI and WEB UI in Apache Spark]() ([blogpost]())
-1. [Spark Architecture – Local and cluster mode]() ([blogpost]())
-1. [Setting up Spark Cluster]() ([blogpost]())
-1. [Setting up IDE]() ([blogpost]())
-1. [Starting Spark with R and Python]() ([blogpost]())
-1. [Creating RDD files]() ([blogpost]())
-1. [RDD Operations]() ([blogpost]())
-1. [Working with data frames]() ([blogpost]())
-1. [Working with packages and spark DataFrames]() ([blogpost]())
+1. [Installing Apache Spark](https://github.com/tomaztk/Spark-for-data-engineers/blob/main/SparkEngineers/02_installing-apache-spark.md) ([blogpost]())
+1. [Getting around CLI and WEB UI in Apache Spark](https://github.com/tomaztk/Spark-for-data-engineers/blob/main/SparkEngineers/03_getting-to-know-CLI-and-WEB-UI.md) ([blogpost]())
+1. [Spark Architecture – Local and cluster mode](https://github.com/tomaztk/Spark-for-data-engineers/blob/main/SparkEngineers/04_Spark-Architecture-Local-and-cluster-mode.md) ([blogpost]())
+1. [Setting up Spark Cluster]() ([blogpost](https://github.com/tomaztk/Spark-for-data-engineers/blob/main/SparkEngineers/05_setting-up-Spark-cluster.md))
+1. [Setting up IDE](https://github.com/tomaztk/Spark-for-data-engineers/blob/main/SparkEngineers/06_Setting-up-IDE.md) ([blogpost]())
+1. [Starting Spark with R and Python](https://github.com/tomaztk/Spark-for-data-engineers/blob/main/SparkEngineers/07_Spark-with-R-and-Python.md) ([blogpost]())
+1. [Creating RDD files](https://github.com/tomaztk/Spark-for-data-engineers/blob/main/SparkEngineers/08_Creating-RDD-files.md) ([blogpost]())
+1. [RDD Operations](https://github.com/tomaztk/Spark-for-data-engineers/blob/main/SparkEngineers/09_RDD-Operations.md) ([blogpost]())
+1. [Working with data frames](https://github.com/tomaztk/Spark-for-data-engineers/blob/main/SparkEngineers/10_Working-with-data-frames.md) ([blogpost]())
+1. [Working with packages and spark DataFrames](https://github.com/tomaztk/Spark-for-data-engineers/blob/main/SparkEngineers/11_Working-with-packages-and-spark-dataframes.md) ([blogpost]())
+1. [Spark SQL](https://github.com/tomaztk/Spark-for-data-engineers/blob/main/SparkEngineers/12_Spark-SQL.md) ([blogpost]())
+1. [title]() ([blogpost]())
 
 
  ## Blog
