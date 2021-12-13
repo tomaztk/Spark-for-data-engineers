@@ -79,6 +79,8 @@ Data engineers position is slightly different of analytical positions. Instead o
 1. [Working with packages and spark DataFrames](https://github.com/tomaztk/Spark-for-data-engineers/blob/main/SparkEngineers/11_Working-with-packages-and-spark-dataframes.md) ([blogpost](https://tomaztsql.wordpress.com/2021/12/11/advent-of-2021-day-11-working-with-packages-and-spark-dataframes/))
 1. [Spark SQL](https://github.com/tomaztk/Spark-for-data-engineers/blob/main/SparkEngineers/12_Spark-SQL.md) ([blogpost](https://tomaztsql.wordpress.com/2021/12/12/advent-of-2021-day-12-spark-sql/))
 
+1. [Spark SQL bucketing and partitioning](https://github.com/tomaztk/Spark-for-data-engineers/blob/main/SparkEngineers/13_Spark-SQL-Bucketing-and-partitioning.md) ([blogpost]())
+
 <!-- 1. [tt]() ([blogpost]()) -->
 
 
