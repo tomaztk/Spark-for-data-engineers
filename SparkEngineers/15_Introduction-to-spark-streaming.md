@@ -86,5 +86,79 @@ sparkR.session.stop()</pre>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Similar to R, you can do this with Python (or Scala) as well.</p>
+<p>Similar to R, you can do this with Python (or Scala) as well. So assuming that you already have Spark SQL engine installed and nc is up and running on localhost with port 9999.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Create a Python file (Stream-word-count.py) and copy the content:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:syntaxhighlighter/code {"language":"python"} -->
+<pre class="wp-block-syntaxhighlighter-code">import sys
+
+from pyspark.sql import SparkSession
+from pyspark.sql.functions import explode
+from pyspark.sql.functions import split
+
+if __name__ == "__main__":
+    if len(sys.argv) != 3:
+        print("Usage: Stream-word-count.py &lt;hostname> &lt;port>", file=sys.stderr)
+        sys.exit(-1)
+
+    host = sys.argv[1]
+    port = int(sys.argv[2])
+
+    spark = SparkSession\
+        .builder\
+        .appName("StructuredStreamApp")\
+        .getOrCreate()
+
+    lines = spark\
+        .readStream\
+        .format('socket')\
+        .option('host', host)\
+        .option('port', port)\
+        .load()
+
+    # Split the lines into words
+    words = lines.select(
+        # explode turns each item in an array into a separate row
+        explode(
+            split(lines.value, ' ')
+        ).alias('word')
+    )
+
+    wordCounts = words.groupBy('word').count()
+
+    query = wordCounts\
+        .writeStream\
+        .outputMode('complete')\
+        .format('console')\
+        .start()
+
+    query.awaitTermination()</pre>
+<!-- /wp:syntaxhighlighter/code -->
+
+<!-- wp:paragraph -->
+<p>And run the following file from CLI:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:syntaxhighlighter/code {"language":"bash"} -->
+<pre class="wp-block-syntaxhighlighter-code">/bin/spark-submit /Pysample/Stream-word-count.py localhost 9999</pre>
+<!-- /wp:syntaxhighlighter/code -->
+
+<!-- wp:paragraph -->
+<p>In both cases, you should be getting the results back in dataset/dataframe that is ready to be analysed.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Tomorrow we will make dataframe operations for Spark streaming.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Compete set of code, documents, notebooks, and all of the materials will be available at the Github repository:&nbsp;<a rel="noreferrer noopener" href="https://github.com/tomaztk/Spark-for-data-engineers" target="_blank">https://github.com/tomaztk/Spark-for-data-engineers</a></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Happy Spark Advent of 2021! 🙂</p>
 <!-- /wp:paragraph -->
