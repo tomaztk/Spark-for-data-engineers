@@ -79,9 +79,7 @@ Data engineers position is slightly different of analytical positions. Instead o
 1. [Working with packages and spark DataFrames](https://github.com/tomaztk/Spark-for-data-engineers/blob/main/SparkEngineers/11_Working-with-packages-and-spark-dataframes.md) ([blogpost](https://tomaztsql.wordpress.com/2021/12/11/advent-of-2021-day-11-working-with-packages-and-spark-dataframes/))
 1. [Spark SQL](https://github.com/tomaztk/Spark-for-data-engineers/blob/main/SparkEngineers/12_Spark-SQL.md) ([blogpost](https://tomaztsql.wordpress.com/2021/12/12/advent-of-2021-day-12-spark-sql/))
 1. [Spark SQL bucketing and partitioning](https://github.com/tomaztk/Spark-for-data-engineers/blob/main/SparkEngineers/13_Spark-SQL-Bucketing-and-partitioning.md) ([blogpost](https://tomaztsql.wordpress.com/2021/10/13/advent-of-2021-day-13-spark-sql-bucketing-and-partitioning/))
-
 1. [Spark SQL query hints and executions](https://github.com/tomaztk/Spark-for-data-engineers/blob/main/SparkEngineers/14_Spark-SQL-query-hints-and-executions.md) ([blogpost](https://tomaztsql.wordpress.com/2021/12/14/advent-of-2021-day-14-spark-sql-query-hints-and-executions/))
-
 1. [Introduction to Spark Streaming](https://github.com/tomaztk/Spark-for-data-engineers/blob/main/SparkEngineers/15_Introduction-to-spark-streaming.md) ([blogpost](https://tomaztsql.wordpress.com/2021/12/15/advent-of-2021-day-15-introduction-to-spark-streaming/))
 <!-- 1. [tt]() ([blogpost]()) -->
 
