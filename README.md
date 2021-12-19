@@ -84,7 +84,7 @@ Data engineers position is slightly different of analytical positions. Instead o
 1. [Dataframe operations for Spark streaming](https://github.com/tomaztk/Spark-for-data-engineers/blob/main/SparkEngineers/16_Dataframe-operations-for-Spark-Streaming.md) ([blogpost](https://tomaztsql.wordpress.com/2021/12/16/advent-of-2021-day-16-dataframe-operations-for-spark-streaming/)) 
 1. [Watermarking and joins for Spark streaming](https://github.com/tomaztk/Spark-for-data-engineers/blob/main/SparkEngineers/17_Watermarking-and-joins-for-Spark-Streaming.md) ([blogpost](https://tomaztsql.wordpress.com/2021/12/17/advent-of-2021-day-17-watermarking-and-joins-for-spark-streaming/)) 
 1. [Time windows for Spark streaming](https://github.com/tomaztk/Spark-for-data-engineers/blob/main/SparkEngineers/18_Time-windows-for-Spark-streaming.md) ([blogpost](https://tomaztsql.wordpress.com/2021/12/18/advent-of-2021-day-18-time-windows-for-spark-streaming/)) 
-1. [Data Engineering for Spark Streaming](https://github.com/tomaztk/Spark-for-data-engineers/blob/main/SparkEngineers/19_Data-engineering-for-Spark-Streaming.md) ([blogpost](https://tomaztsql.wordpress.com/2021/12/19/advent-of-2021-day-19-data-engineering-for-spark-streaming/) 
+1. [Data Engineering for Spark Streaming](https://github.com/tomaztk/Spark-for-data-engineers/blob/main/SparkEngineers/19_Data-engineering-for-Spark-Streaming.md) ([blogpost](https://tomaztsql.wordpress.com/2021/12/19/advent-of-2021-day-19-data-engineering-for-spark-streaming/))
 <!-- 1. [tt]() ([blogpost]()) -->
 
 
