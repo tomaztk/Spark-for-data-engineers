@@ -81,6 +81,9 @@ Data engineers position is slightly different of analytical positions. Instead o
 1. [Spark SQL bucketing and partitioning](https://github.com/tomaztk/Spark-for-data-engineers/blob/main/SparkEngineers/13_Spark-SQL-Bucketing-and-partitioning.md) ([blogpost](https://tomaztsql.wordpress.com/2021/10/13/advent-of-2021-day-13-spark-sql-bucketing-and-partitioning/))
 1. [Spark SQL query hints and executions](https://github.com/tomaztk/Spark-for-data-engineers/blob/main/SparkEngineers/14_Spark-SQL-query-hints-and-executions.md) ([blogpost](https://tomaztsql.wordpress.com/2021/12/14/advent-of-2021-day-14-spark-sql-query-hints-and-executions/))
 1. [Introduction to Spark Streaming](https://github.com/tomaztk/Spark-for-data-engineers/blob/main/SparkEngineers/15_Introduction-to-spark-streaming.md) ([blogpost](https://tomaztsql.wordpress.com/2021/12/15/advent-of-2021-day-15-introduction-to-spark-streaming/))
+1. [Dataframe operations for Spark streaming](https://github.com/tomaztk/Spark-for-data-engineers/blob/main/SparkEngineers/16_Dataframe-operations-for-Spark-Streaming.md) ([blogpost](https://tomaztsql.wordpress.com/2021/12/16/advent-of-2021-day-16-dataframe-operations-for-spark-streaming/)) 
+1. [Watermarking and joins for Spark streaming](https://github.com/tomaztk/Spark-for-data-engineers/blob/main/SparkEngineers/17_Watermarking-and-joins-for-Spark-Streaming.md) ([blogpost](https://tomaztsql.wordpress.com/2021/12/17/advent-of-2021-day-17-watermarking-and-joins-for-spark-streaming/)) 
+1. [Time windows for Spark streaming](https://github.com/tomaztk/Spark-for-data-engineers/blob/main/SparkEngineers/18_Time-windows-for-Spark-streaming.md) ([blogpost](https://tomaztsql.wordpress.com/2021/12/18/advent-of-2021-day-18-time-windows-for-spark-streaming/)) 
 <!-- 1. [tt]() ([blogpost]()) -->
 
 
