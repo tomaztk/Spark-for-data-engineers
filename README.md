@@ -89,6 +89,8 @@ Data engineers position is slightly different of analytical positions. Instead o
 1. [Spak GraphX operators](https://github.com/tomaztk/Spark-for-data-engineers/blob/main/SparkEngineers/21_Spark-GraphX-operators.md) ([blogpost](https://tomaztsql.wordpress.com/2021/12/21/advent-of-2021-day-21-spark-graphx-operators/))
 1. [Spark in Azure Databricks](https://github.com/tomaztk/Spark-for-data-engineers/blob/main/SparkEngineers/22_Spark-in-Azure-Databricks.md) ([blogpost](https://tomaztsql.wordpress.com/2021/12/22/advent-of-2021-day-22-spark-in-azure-databricks/))
 1. [Delta live tables with Azure Databricks](https://github.com/tomaztk/Spark-for-data-engineers/blob/main/SparkEngineers/23_Delta-live-tables-with-Azure-Databricks.md) ([blogpost](https://tomaztsql.wordpress.com/2021/12/23/advent-of-2021-day-23-delta-live-tables-with-azure-databricks/))
+1. [Data visualisation with Spark](https://github.com/tomaztk/Spark-for-data-engineers/blob/main/SparkEngineers/24_Data-visualiation-with-Spark.md) ([blogpost](https://tomaztsql.wordpress.com/2021/12/24/advent-of-2021-day-24-data-visualisation-with-spark/)) 
+1. [Spark literature, documentation, courses and books](https://github.com/tomaztk/Spark-for-data-engineers/blob/main/SparkEngineers/25_Spark-literature-documentation-courses-and-books.md) ([blogpost](https://tomaztsql.wordpress.com/2021/12/25/advent-of-2021-day-25-spark-literature-documentation-courses-and-books/)) 
 
 <!-- 1. [tt]() ([blogpost]()) -->
 
